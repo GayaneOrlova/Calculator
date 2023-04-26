@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    font-size: 26px;
+}
+.calc {
+    width: 400px;
+    background-color: grey;
+    border-radius: 5px;
+    box-shadow: -1px -1px 1px #969DA3, inset -1px -1px  1px #7D878F;
+    padding: 20px;
+}
+
+.calc__screen {
+    width: 100%;
+    height: 80px;
+    background-color: lightgray;
+    border-radius: inherit;
+    border-color: inherit;
+    text-align: right;
+    font-size: 28px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+.button {
+    box-shadow: inset -5px -5px 5px 0 rgb(0 0 0 / 50%), inset 5px 5px 5px 0 rgb(255 255 255 / 50%);
+}
+
+
+.calc__buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+ 
+   
+}
+/* 
+.exponentiation__button {
+    background: url(image/exponentiation.png);
+    background-repeat: no-repeat;
+    /* width: 35px;
+    height: 25px; */
+    /* background-size: 100% auto, cover;
+}
+
+.square__root__button {
+    background-image: transperent url(image/square__root.png);
+    background-repeat: no-repeat;
+    /* width: 35px;
+    height: 25px; */
+    /* background-size: 100% auto, cover;
+} */ */ */
